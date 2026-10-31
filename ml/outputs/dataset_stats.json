@@ -1,0 +1,476 @@
+{
+  "feature_stats": {
+    "N": {
+      "mean": 59.77,
+      "std": 40.78,
+      "min": 0.0,
+      "q25": 25.0,
+      "median": 50.0,
+      "q75": 95.0,
+      "max": 169.0
+    },
+    "P": {
+      "mean": 53.49,
+      "std": 29.63,
+      "min": 5.0,
+      "q25": 35.0,
+      "median": 53.0,
+      "q75": 66.0,
+      "max": 145.0
+    },
+    "K": {
+      "mean": 52.42,
+      "std": 48.2,
+      "min": 5.0,
+      "q25": 22.0,
+      "median": 38.0,
+      "q75": 52.0,
+      "max": 205.0
+    },
+    "temperature": {
+      "mean": 25.05,
+      "std": 5.16,
+      "min": 8.83,
+      "q25": 21.54,
+      "median": 25.2,
+      "q75": 28.29,
+      "max": 43.68
+    },
+    "humidity": {
+      "mean": 70.27,
+      "std": 20.37,
+      "min": 14.26,
+      "q25": 59.32,
+      "median": 74.4,
+      "q75": 86.21,
+      "max": 99.98
+    },
+    "ph": {
+      "mean": 6.48,
+      "std": 0.73,
+      "min": 3.5,
+      "q25": 6.01,
+      "median": 6.45,
+      "q75": 6.91,
+      "max": 9.94
+    },
+    "rainfall": {
+      "mean": 105.01,
+      "std": 52.97,
+      "min": 20.21,
+      "q25": 66.97,
+      "median": 96.6,
+      "q75": 124.85,
+      "max": 298.56
+    }
+  },
+  "correlation_matrix": {
+    "N": {
+      "N": 1.0,
+      "P": -0.157,
+      "K": 0.036,
+      "temperature": -0.06,
+      "humidity": 0.135,
+      "ph": 0.097,
+      "rainfall": 0.161
+    },
+    "P": {
+      "N": -0.157,
+      "P": 1.0,
+      "K": 0.699,
+      "temperature": -0.073,
+      "humidity": -0.093,
+      "ph": -0.147,
+      "rainfall": -0.015
+    },
+    "K": {
+      "N": 0.036,
+      "P": 0.699,
+      "K": 1.0,
+      "temperature": -0.143,
+      "humidity": 0.202,
+      "ph": -0.189,
+      "rainfall": 0.04
+    },
+    "temperature": {
+      "N": -0.06,
+      "P": -0.073,
+      "K": -0.143,
+      "temperature": 1.0,
+      "humidity": 0.245,
+      "ph": -0.014,
+      "rainfall": 0.078
+    },
+    "humidity": {
+      "N": 0.135,
+      "P": -0.093,
+      "K": 0.202,
+      "temperature": 0.245,
+      "humidity": 1.0,
+      "ph": -0.032,
+      "rainfall": 0.14
+    },
+    "ph": {
+      "N": 0.097,
+      "P": -0.147,
+      "K": -0.189,
+      "temperature": -0.014,
+      "humidity": -0.032,
+      "ph": 1.0,
+      "rainfall": -0.102
+    },
+    "rainfall": {
+      "N": 0.161,
+      "P": -0.015,
+      "K": 0.04,
+      "temperature": 0.078,
+      "humidity": 0.14,
+      "ph": -0.102,
+      "rainfall": 1.0
+    }
+  },
+  "crop_averages": [
+    {
+      "label": "apple",
+      "N": 20.8,
+      "P": 134.22,
+      "K": 199.89,
+      "temperature": 22.63,
+      "humidity": 92.33,
+      "ph": 5.93,
+      "rainfall": 112.65
+    },
+    {
+      "label": "banana",
+      "N": 100.23,
+      "P": 82.01,
+      "K": 50.05,
+      "temperature": 27.38,
+      "humidity": 80.36,
+      "ph": 5.98,
+      "rainfall": 104.63
+    },
+    {
+      "label": "barley",
+      "N": 79.53,
+      "P": 38.16,
+      "K": 35.55,
+      "temperature": 17.2,
+      "humidity": 54.55,
+      "ph": 7.12,
+      "rainfall": 62.13
+    },
+    {
+      "label": "blackgram",
+      "N": 40.02,
+      "P": 67.47,
+      "K": 19.24,
+      "temperature": 29.97,
+      "humidity": 65.12,
+      "ph": 7.13,
+      "rainfall": 67.88
+    },
+    {
+      "label": "chickpea",
+      "N": 40.09,
+      "P": 67.79,
+      "K": 79.92,
+      "temperature": 18.87,
+      "humidity": 16.86,
+      "ph": 7.34,
+      "rainfall": 80.06
+    },
+    {
+      "label": "coconut",
+      "N": 21.98,
+      "P": 16.93,
+      "K": 30.59,
+      "temperature": 27.41,
+      "humidity": 94.84,
+      "ph": 5.98,
+      "rainfall": 175.69
+    },
+    {
+      "label": "coffee",
+      "N": 101.2,
+      "P": 28.74,
+      "K": 29.94,
+      "temperature": 25.54,
+      "humidity": 58.87,
+      "ph": 6.79,
+      "rainfall": 158.07
+    },
+    {
+      "label": "cotton",
+      "N": 117.77,
+      "P": 46.24,
+      "K": 19.56,
+      "temperature": 23.99,
+      "humidity": 79.84,
+      "ph": 6.91,
+      "rainfall": 80.4
+    },
+    {
+      "label": "grapes",
+      "N": 23.18,
+      "P": 132.53,
+      "K": 200.11,
+      "temperature": 23.85,
+      "humidity": 81.88,
+      "ph": 6.03,
+      "rainfall": 69.61
+    },
+    {
+      "label": "groundnut",
+      "N": 27.9,
+      "P": 52.06,
+      "K": 47.81,
+      "temperature": 27.39,
+      "humidity": 64.14,
+      "ph": 6.41,
+      "rainfall": 92.69
+    },
+    {
+      "label": "jute",
+      "N": 78.4,
+      "P": 46.86,
+      "K": 39.99,
+      "temperature": 24.96,
+      "humidity": 79.64,
+      "ph": 6.73,
+      "rainfall": 174.79
+    },
+    {
+      "label": "kidneybeans",
+      "N": 20.75,
+      "P": 67.54,
+      "K": 20.05,
+      "temperature": 20.12,
+      "humidity": 21.61,
+      "ph": 5.75,
+      "rainfall": 105.92
+    },
+    {
+      "label": "lentil",
+      "N": 18.77,
+      "P": 68.36,
+      "K": 19.41,
+      "temperature": 24.51,
+      "humidity": 64.8,
+      "ph": 6.93,
+      "rainfall": 45.68
+    },
+    {
+      "label": "maize",
+      "N": 77.76,
+      "P": 48.44,
+      "K": 19.79,
+      "temperature": 22.39,
+      "humidity": 65.09,
+      "ph": 6.25,
+      "rainfall": 84.77
+    },
+    {
+      "label": "mango",
+      "N": 20.07,
+      "P": 27.18,
+      "K": 29.92,
+      "temperature": 31.21,
+      "humidity": 50.16,
+      "ph": 5.77,
+      "rainfall": 94.7
+    },
+    {
+      "label": "mothbeans",
+      "N": 21.44,
+      "P": 48.01,
+      "K": 20.23,
+      "temperature": 28.19,
+      "humidity": 53.16,
+      "ph": 6.83,
+      "rainfall": 51.2
+    },
+    {
+      "label": "mungbean",
+      "N": 20.99,
+      "P": 47.28,
+      "K": 19.87,
+      "temperature": 28.53,
+      "humidity": 85.5,
+      "ph": 6.72,
+      "rainfall": 48.4
+    },
+    {
+      "label": "muskmelon",
+      "N": 100.32,
+      "P": 17.72,
+      "K": 50.08,
+      "temperature": 28.66,
+      "humidity": 92.34,
+      "ph": 6.36,
+      "rainfall": 24.69
+    },
+    {
+      "label": "orange",
+      "N": 19.58,
+      "P": 16.55,
+      "K": 10.01,
+      "temperature": 22.77,
+      "humidity": 92.17,
+      "ph": 7.02,
+      "rainfall": 110.47
+    },
+    {
+      "label": "papaya",
+      "N": 49.88,
+      "P": 59.05,
+      "K": 50.04,
+      "temperature": 33.72,
+      "humidity": 92.4,
+      "ph": 6.74,
+      "rainfall": 142.63
+    },
+    {
+      "label": "pigeonpeas",
+      "N": 20.73,
+      "P": 67.73,
+      "K": 20.29,
+      "temperature": 27.74,
+      "humidity": 48.06,
+      "ph": 5.79,
+      "rainfall": 149.46
+    },
+    {
+      "label": "pomegranate",
+      "N": 18.87,
+      "P": 18.75,
+      "K": 40.21,
+      "temperature": 21.84,
+      "humidity": 90.13,
+      "ph": 6.43,
+      "rainfall": 107.53
+    },
+    {
+      "label": "potato",
+      "N": 102.07,
+      "P": 54.47,
+      "K": 121.54,
+      "temperature": 18.62,
+      "humidity": 71.75,
+      "ph": 5.83,
+      "rainfall": 108.53
+    },
+    {
+      "label": "rice",
+      "N": 79.89,
+      "P": 47.58,
+      "K": 39.87,
+      "temperature": 23.69,
+      "humidity": 82.27,
+      "ph": 6.43,
+      "rainfall": 236.18
+    },
+    {
+      "label": "sugarcane",
+      "N": 144.89,
+      "P": 63.37,
+      "K": 105.24,
+      "temperature": 29.92,
+      "humidity": 78.48,
+      "ph": 6.82,
+      "rainfall": 194.26
+    },
+    {
+      "label": "tomato",
+      "N": 95.69,
+      "P": 65.5,
+      "K": 54.12,
+      "temperature": 24.09,
+      "humidity": 68.29,
+      "ph": 6.27,
+      "rainfall": 124.19
+    },
+    {
+      "label": "watermelon",
+      "N": 99.42,
+      "P": 17.0,
+      "K": 50.22,
+      "temperature": 25.59,
+      "humidity": 85.16,
+      "ph": 6.5,
+      "rainfall": 50.79
+    },
+    {
+      "label": "wheat",
+      "N": 111.24,
+      "P": 50.13,
+      "K": 44.29,
+      "temperature": 20.71,
+      "humidity": 57.69,
+      "ph": 6.66,
+      "rainfall": 82.29
+    }
+  ],
+  "total_samples": 2800,
+  "num_classes": 28,
+  "classes": [
+    "apple",
+    "banana",
+    "barley",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "groundnut",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "potato",
+    "rice",
+    "sugarcane",
+    "tomato",
+    "watermelon",
+    "wheat"
+  ],
+  "class_distribution": {
+    "rice": 100,
+    "maize": 100,
+    "chickpea": 100,
+    "kidneybeans": 100,
+    "pigeonpeas": 100,
+    "mothbeans": 100,
+    "mungbean": 100,
+    "blackgram": 100,
+    "lentil": 100,
+    "pomegranate": 100,
+    "banana": 100,
+    "mango": 100,
+    "grapes": 100,
+    "watermelon": 100,
+    "muskmelon": 100,
+    "apple": 100,
+    "orange": 100,
+    "papaya": 100,
+    "coconut": 100,
+    "cotton": 100,
+    "jute": 100,
+    "coffee": 100,
+    "wheat": 100,
+    "sugarcane": 100,
+    "potato": 100,
+    "groundnut": 100,
+    "barley": 100,
+    "tomato": 100
+  }
+}

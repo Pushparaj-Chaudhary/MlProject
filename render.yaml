@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: crop-intelligence-api
+    env: python
+    buildCommand: pip install -r backend/requirements.txt && python ml/train.py
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: CORS_ORIGINS
+        value: "*"
